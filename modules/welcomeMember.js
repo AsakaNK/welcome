@@ -22,7 +22,7 @@ async function welcomeMember(member, client){
     let message = `Hey yo <@${member.id}>, bienvenue sur ***${member.guild.name}*** !`;
     
     welcomeChannel.send(message)
-    member.send({ embeds: [NEW] });
+    
 
 }
 
